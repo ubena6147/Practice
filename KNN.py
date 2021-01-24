@@ -30,6 +30,7 @@ model.fit(x_train, y_train)
 
 acc = model.score(x_test, y_test)
 
+print(acc) #printing accuracy
 print(acc)
 
 prediction = model.predict(x_test)
